@@ -34,5 +34,28 @@ int main()
     std::cout << d << std::endl;
     std::cout << d.length() << std::endl;
 
+    std::cout << "We can access the second to last character by subtracting the length by 2 and not changing the returned number of characters.\n";
+    std::string e(b, b.length()-2, 1);
+    std::cout << e << std::endl;
+    std::cout << e.length() << std::endl;
+
+    std::cout << "We can access the third to last character by subtracting the length by 3 and not changing the returned number of characters.\n";
+    std::string f(b, b.length()-3, 1);
+    std::cout << f << std::endl;
+    std::cout << f.length() << std::endl;
+
+    std::cout << "We can access groupings of characters from the end of the string by changing the number of characters we wish to return.\n";
+    std::string e(b, b.length()-2, 2);
+    std::cout << e << std::endl;
+    std::cout << e.length() << std::endl;
+
+    std::string f(b, b.length()-3, 3);
+    std::cout << f << std::endl;
+    std::cout << f.length() << std::endl;
+
+    std::string g(b, b.length()-4, 4);
+    std::cout << g << std::endl;
+    std::cout << g.length() << std::endl;
+
     return 0;
 }

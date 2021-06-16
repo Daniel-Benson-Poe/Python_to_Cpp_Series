@@ -1,3 +1,6 @@
+# Simple number printout
+print(13)
+
 # addition
 print("===================")
 print("ADDITION:")

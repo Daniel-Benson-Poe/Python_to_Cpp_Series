@@ -2,6 +2,10 @@
 
 int main()
 {
+
+    // # Simple number printout
+    std::cout << 13 << std::endl;
+    
     // # addition
     std::cout << "===================" << std::endl;
     std::cout << "ADDITION:" << std::endl;
