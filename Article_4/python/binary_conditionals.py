@@ -1,6 +1,33 @@
+# Boolean Values
 print(True)
 print(False)
 
+# basic condition statements
+print(13 == 13)
+print(13 == 12)
+print(13 != 13)
+print(13 != 12)
+print(13 < 13)
+print(13 < 14)
+print(13 > 13)
+print(13 > 12)
+print(13 <= 13)
+print(13 <= 12)
+print(13 >= 13)
+print(13 >= 14)
+print(13 == 13)
+print(13 == "Today")
+print(13 != "Today")
+
+panda1 = "Greg"
+panda2 = panda1.copy()
+panda3 = panda1
+panda4 = "Mike"
+print(panda1 is panda2)
+print(panda1 is panda3)
+print(panda1 is not panda4)
+
+# Conditional Statements
 a = True
 b = False
 
@@ -39,3 +66,19 @@ elif d > 0:
 else:
     print("d is a negative number")
 
+# Complex conditional statements
+e = 200
+f = 6
+    
+if e < 500 and e > 100:
+    print("e is between 100 and 500")
+elif e < 100 and e > 0:
+    print("e is between 0 and 100")
+
+elif e < 0:
+    print("e is negative")
+    
+if f > 100 or f < 0:
+    print("f is either greater than 100 or is a negative number")
+elif f < 100 or f > 0:
+    print("f is either less than 100 or is a positive number")

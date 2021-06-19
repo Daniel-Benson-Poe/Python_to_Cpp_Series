@@ -1,9 +1,27 @@
 #include <iostream>
 
 int main() {
+    // boolean values
     std::cout << true << std::endl;
     std::cout << false << std::endl;
 
+    // basic condition statements
+    std::cout << (13 == 13) << std::endl;
+    std::cout << (13 == 12) << std::endl;
+    std::cout << (13 != 13) << std::endl;
+    std::cout << (13 != 12) << std::endl;
+    std::cout << (13 < 13) << std::endl;
+    std::cout << (13 < 14) << std::endl;
+    std::cout << (13 > 13) << std::endl;
+    std::cout << (13 > 12) << std::endl;
+    std::cout << (13 <= 13) << std::endl;
+    std::cout << (13 <= 12) << std::endl;
+    std::cout << (13 >= 13) << std::endl;
+    std::cout << (13 >= 14) << std::endl;
+    // std::cout << (13 == "Today") << std::endl;
+    // std::cout << (13 != "Today") << std::endl;
+
+    // Conditional statements
     bool a = true;
     bool b = false;
 
@@ -56,5 +74,32 @@ int main() {
         std::cout << "d is a negative number\n";
     }
 
+    // Complex conditional statements
+    int e = 200;
+    int f = 6;
+
+    if (e < 500 && e > 100)
+    {
+        std::cout << "e is between 100 and 500\n";
+    }
+    else if ( e < 100 && e > 0)
+    {
+        std::cout << "e is between 0 and 100\n";
+    }
+    else if (e < 0)
+    {
+        std::cout << "e is negative\n";
+    }
+
+    if (f > 100 || f < 0)
+    {
+        std::cout << "f is either greater than 100 or is a negative number\n";
+    }
+    else if (f < 100 || f > 0)
+    {
+        std::cout << "f is either less than 100 or is a positive number";
+    }
+
     return 0;
+
 }
