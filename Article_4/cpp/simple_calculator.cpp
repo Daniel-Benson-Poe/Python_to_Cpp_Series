@@ -7,7 +7,7 @@ int main(){
     std::cout << "You will first choose two numbers,\n";
     std::cout << "then you will tell me what calculation you\n";
     std::cout << "wish to perform on those two numbers by\n";
-    std::cout << "typing iin the symbol corresponding to that calculation.\n";
+    std::cout << "typing in the symbol corresponding to that calculation.\n";
     std::cout << "For instance if you wanted to add the numbers 2 and 4 together\n";
     std::cout << "you would give me the numbers 2 and 4\n";
     std::cout << "then when prompted give me the symbol '+'.\n";

@@ -3,6 +3,8 @@ def hello_world():
     print("Hello world")
 
 hello_world() # Call to the hello_world function
+print("Seperating code here...")
+hello_world() # 2nd call to the hello_world function
 
 # Function that gather's a user's name
 def gather_user_name():

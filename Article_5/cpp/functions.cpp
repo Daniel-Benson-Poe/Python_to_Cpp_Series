@@ -3,7 +3,7 @@
 
 void printHelloWorld()
 {
-   std::cout << "Hello world!\n"; 
+   std::cout << "Hello readers!\n"; 
 }
 
 std::string gatherUserName()

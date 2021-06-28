@@ -20,12 +20,11 @@ print(13 == "Today")
 print(13 != "Today")
 
 panda1 = "Greg"
-panda2 = panda1.copy()
-panda3 = panda1
-panda4 = "Mike"
+panda2 = panda1
+panda3 = "Mike"
 print(panda1 is panda2)
 print(panda1 is panda3)
-print(panda1 is not panda4)
+print(panda2 is not panda3)
 
 # Conditional Statements
 a = True

@@ -97,7 +97,7 @@ int main() {
     }
     else if (f < 100 || f > 0)
     {
-        std::cout << "f is either less than 100 or is a positive number";
+        std::cout << "f is either less than 100 or is a positive number\n";
     }
 
     return 0;
