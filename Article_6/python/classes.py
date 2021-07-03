@@ -30,7 +30,7 @@ class Character():
             self.hp = 15
         elif self.specialty == "Rogue":
             self.hp = 20
-        print(f"Your have {self.hp} hit points.")
+        print(f"You have {self.hp} hit points.")
 
     def set_mp(self):
         if self.specialty == "Warrior":

@@ -91,6 +91,7 @@ int main()
     myChar.setSpecialty(); // Call setSpeciality method
     myChar.setHP(); // Call setHP method
     myChar.setMP(); // Call setMP method
+    std::cout << myChar.name << std::endl;
     myChar.viewCharStats(); // Call viewCharStats method
 
     return 0;
